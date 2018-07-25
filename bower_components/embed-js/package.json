@@ -1,0 +1,96 @@
+{
+  "name": "embed-js",
+  "description": "A boilerplate to write plugins in pure JavaScript using ES2015",
+  "scripts": {
+    "commit": "git cz",
+    "test": "ava",
+    "test:browser": "IS_BROWSER=true ava packages/**/*.browser.js",
+    "test:watch": "ava --watch",
+    "test:cover": "nyc ava",
+    "test:report": "cat ./coverage/lcov.info | codecov && rm -rf ./coverage",
+    "clean": "rm -rf packages/*/dist packages/*/umd",
+    "build": "npm run clean && node ./scripts/build",
+    "lint": "eslint 'packages/*/{src, tests}/*.js'",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write --no-semi packages/**/*.js packages/**/*.css scripts/**/*.js",
+    "prepublish": "npm run build",
+    "precommit": "lint-staged"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "browser-env": "^3.1.2",
+    "codecov.io": "^0.1.6",
+    "cssnano": "^3.10.0",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.5.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "fs-extra": "^4.0.1",
+    "globby": "^6.1.0",
+    "husky": "^0.14.3",
+    "isomorphic-unfetch": "^2.0.0",
+    "lerna": "^2.0.0",
+    "lint-staged": "^4.0.3",
+    "nodemon": "^1.11.0",
+    "nyc": "^11.1.0",
+    "p-is-promise": "^1.1.0",
+    "prettier-eslint-cli": "^4.2.1",
+    "prismjs": "^1.6.0",
+    "rollup": "^0.48.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-nodent": "^0.1.1",
+    "rollup-plugin-re": "^1.0.6",
+    "rollup-plugin-regenerator": "^0.3.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.3.1",
+    "sinon": "^3.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "author": {
+    "name": "Ritesh Kumar",
+    "email": "rkritesh078@gmail.com",
+    "url": "https://github.com/ritz078"
+  },
+  "lint-staged": {
+    "'{packages, scripts}/**/*.{js, css}'": [
+      "prettier --write --no-semi",
+      "git add"
+    ]
+  },
+  "homepage": "https://github.com/ritz078/embed.js",
+  "ava": {
+    "require": [
+      "babel-register",
+      "babel-polyfill",
+      "./test/helpers/setup-browser-env.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritz078/embed.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ritz078/embed.js/issues"
+  },
+  "dependencies": {}
+}

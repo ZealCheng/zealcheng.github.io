@@ -1,0 +1,15 @@
+{
+  "name": "embed-js",
+  "homepage": "https://github.com/ritz078/embed-js",
+  "version": "5.0.3",
+  "_release": "5.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.3",
+    "commit": "b8bdf1c19ca54a14a8da53347d68a6176d821971"
+  },
+  "_source": "https://github.com/ritz078/embed-js.git",
+  "_target": "^5.0.3",
+  "_originalSource": "embed-js",
+  "_direct": true
+}

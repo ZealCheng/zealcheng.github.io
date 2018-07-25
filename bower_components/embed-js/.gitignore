@@ -1,0 +1,14 @@
+**/node_modules
+.idea
+.sass-cache
+bower_components
+coverage
+**/dist
+.nyc_output
+index.html
+stats.html
+.vscode
+**/umd
+**/.DS_Store
+lerna-debug.log
+**/package-lock.json
