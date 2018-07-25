@@ -16,7 +16,7 @@ github_url: https://github.com/ZealCheng # ex. https://github.com/DONGChuan
 github_username: ZealCheng # ex. DONGChuan
 description: A little better than yesterday
 favicon: favicon.png # Image must be in assets/images
-repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: ZealCheng/zealcheng.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
@@ -61,8 +61,8 @@ navs:
     label: Home
 
   -
-    href: /open-source
-    label: Open-Source
+    href: /projects
+    label: Projects
 
   -
     href: /blog

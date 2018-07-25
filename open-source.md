@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Open Source Projects
-menu: open-source
-css: ['open-source.css']
+menu: projects
+css: ['projects.css']
 javascript: ['underscore-min.js']
 ---
 {% include open-source-page.html %}
