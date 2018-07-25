@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 menu: about
-subtitle:   <h3>下载我的简历</h3>
+subtitle:   <h3>Download My Resume</h3>
             <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/resume.pdf" target="_blanks">
                 <span class="flag-icon flag-icon-cn"></span> 中文
             </a>
