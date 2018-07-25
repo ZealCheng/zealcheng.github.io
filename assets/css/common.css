@@ -159,3 +159,7 @@
 .sidebar-title {
     text-align: center;
 }
+
+.btn-outline {
+    margin-right: 5px !important;
+}
