@@ -5,17 +5,6 @@ subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; To mark us
 menu: Bookmark
 ---
 
-## Java
-- [Dom4j](https://dom4j.github.io/) - Flexible XML framework
-- [Gson](https://github.com/google/gson) - Google Library to support JSON
-- [Xstream](http://x-stream.github.io/index.html) -  Serialize objects to XML and back again
-- [JAXB](https://jaxb.java.net/) - Java Architecture for XML Binding
-
-## Android
-- [Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Powerful and flexible library for loading, caching and displaying images
-- [greenDAO](http://greendao-orm.com/) - greenDAO is a light and fast ORM solution that maps objects to SQLite databases
-- [EventBus](http://greenrobot.github.io/EventBus/) - Android optimized event bus that simplifies communication
-
 ## PHP
 - [Idiorm](https://github.com/j4mie/idiorm/) - A lightweight nearly-zero-config object-relational mapper and fluent query builder for PHP5
 - [GitElephant](https://github.com/matteosister/GitElephant) - An abstraction layer to manage your git repositories with php
@@ -51,9 +40,9 @@ menu: Bookmark
 
 ## CSS
 - [loaders.css](https://connoratherton.com/loaders) - Delightful and performance-focused pure css loading animations
-- [Load Awesome](http://github.danielcardoso.net/load-awesome/animations.html) - Pure CSS Loaders and Spinners 
+- [Load Awesome](http://github.danielcardoso.net/load-awesome/animations.html) - Pure CSS Loaders and Spinners
 - [Hover.css](http://ianlunn.github.io/Hover/) - Collection of CSS3 powered hover effects
-- [Animate.css](https://github.com/daneden/animate.css) - Bunch of cool, fun, and cross-browser animation. 
+- [Animate.css](https://github.com/daneden/animate.css) - Bunch of cool, fun, and cross-browser animation.
 
 ## Front-end web UI/Framework
 - [Bootstrap](http://getbootstrap.com/) - HTML, CSS, and JS framework for developing responsive, mobile first projects on the web
