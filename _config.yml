@@ -87,5 +87,5 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Python, MySQL]
-skill_web_keywords: [PHP, Swoole, Redis, MongoDB, HTML, CSS, JS, JQuery, Ajax, AngularJS]
+# skill_software_keywords: [Python, MySQL]
+# skill_web_keywords: [PHP, Swoole, Redis, MongoDB, HTML, CSS, JS, JQuery, Ajax, AngularJS]
