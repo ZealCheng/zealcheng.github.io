@@ -6,9 +6,9 @@
 
         <p>A Growing PHPer</p>
 
-        <h2>Description</h2>
+        <h2>Motto</h2>
 
-        <p>{{ site.description }}</p>
+        <p>{{ site.motto }}</p>
 
         <h2>Contact</h2>
 
@@ -17,7 +17,9 @@
             <li>GitHub：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
         </ul>
 
+        {% if site.skill_keywords %}
         <h2>Skill Keywords</h2>
+        {% endif %}
 
         {% if site.skill_web_keywords %}
         <div class="panel panel-default">

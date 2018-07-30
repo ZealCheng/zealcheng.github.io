@@ -14,7 +14,8 @@ company:
 company_url:
 github_url: https://github.com/ZealCheng # ex. https://github.com/DONGChuan
 github_username: ZealCheng # ex. DONGChuan
-description: A little better than yesterday
+description:
+motto: A little better than yesterday
 favicon: snoopy.png # Image must be in assets/images
 repository: ZealCheng/zealcheng.github.io # ex. DONGChuan/DONGChuan.github.io
 
@@ -87,5 +88,6 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
+# skill_keywords: true
 # skill_software_keywords: [Python, MySQL]
 # skill_web_keywords: [PHP, Swoole, Redis, MongoDB, HTML, CSS, JS, JQuery, Ajax, AngularJS]
