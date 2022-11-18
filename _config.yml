@@ -22,7 +22,7 @@ repository: ZealCheng/zealcheng.github.io # ex. DONGChuan/DONGChuan.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://blog.zealcheng.me
+url: http://zealcheng.github.io
 
 ## Gem
 gems:
@@ -49,7 +49,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: blog.zealcheng.me/bower_components/embed-js # ex. httpdongchuangithubio.disqus.com
+disque: zealcheng.github.io/bower_components/embed-js # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
