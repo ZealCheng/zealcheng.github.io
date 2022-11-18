@@ -6,22 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 郑子祥的博客 # ex. I m Chuan
-name: Zeal Cheng # ex. DONGChuan
+title: 郑子祥的博客
+name: Zeal Cheng
 email: zealkitty@gmail.com
-location: China GuangDong guangzhou # ex. Nice, France
+location: China GuangDong guangzhou
 company:
 company_url:
-github_url: https://github.com/ZealCheng # ex. https://github.com/DONGChuan
-github_username: ZealCheng # ex. DONGChuan
+github_url: https://github.com/ZealCheng
+github_username: ZealCheng
 description:
 motto: A little better than yesterday
 favicon: snoopy.png # Image must be in assets/images
-repository: ZealCheng/zealcheng.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: ZealCheng/zealcheng.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
-# For production, use your github page url. ex. http://dongchuan.github.io
+# For production, use your github page url.
 url: http://zealcheng.github.io
 
 ## Gem
@@ -49,7 +49,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: zealcheng.github.io/bower_components/embed-js # ex. httpdongchuangithubio.disqus.com
+disque: zealcheng.github.io/bower_components/embed-js
 
 # Pagination
 paginate: 10
